@@ -79,6 +79,9 @@
 .image_height {
   height: 500px !important;
 }
+.bg_image{
+  background-image: url(`https://plus.unsplash.com/premium_photo-1670315264879-59cc6b15db5f?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`);
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

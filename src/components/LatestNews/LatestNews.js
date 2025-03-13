@@ -140,6 +140,11 @@ export default function LatestNews() {
             </div>
           </div>
         </div>
+        <div className="flex justify-center mt-5">
+          <button className="bg-white text-black hover:text-white hover:bg-black border-[1px] border-black py-2 px-4">
+            LOAD MORE POSTS
+          </button>
+        </div>
       </div>
     </>
   );
