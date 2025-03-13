@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { CiUser } from "react-icons/ci";
+import { FaUser } from "react-icons/fa";
 import NavbarLowerPortion from "./NavbarLowerPortion";
 
 export default function NavbarLargeDevice() {
@@ -14,7 +14,7 @@ export default function NavbarLargeDevice() {
           </p>
           <ul className="text-white flex items-center">
             <li className="flex mr-4 items-center border-r-[0.5px] w-[126px]">
-              <CiUser className="mr-1" />
+              <FaUser className="mr-1" />
               <p className="text-sm text-white">MY ACCOUNT</p>
             </li>
             <li className="mr-4 flex border-r-[0.5px] w-[53px]">

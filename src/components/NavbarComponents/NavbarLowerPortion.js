@@ -8,7 +8,7 @@ import { IoMdCart } from "react-icons/io";
 export default function NavbarLowerPortion() {
   return (
     <>
-      <div className="bg-white">
+      <div className="bg-white sticky top-0  z-50">
         <div className="w-[80%] mx-auto flex justify-between p-2 py-5 ">
           <ul className="hidden lg:flex items-center">
             <li className="flex items-center mr-5">

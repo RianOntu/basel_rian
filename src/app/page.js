@@ -1,11 +1,19 @@
-import Banner from "@/components/Banner";
-import Navbar from "@/components/Navbar";
+import AllProducts from "@/components/AllProducts/AllProducts";
+import Banner from "@/components/Banner/Banner";
+import Featured from "@/components/Featured/Featured";
+import Grid from "@/components/Grid/Grid";
+import Navbar from "@/components/NavbarComponents/Navbar";
+import ScrollToTopButton from "@/components/ScrollToTop/ScrollToTop";
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Banner />
+      <Featured />
+      <Grid />
+      <AllProducts />
+      <ScrollToTopButton />
     </>
   );
 }
