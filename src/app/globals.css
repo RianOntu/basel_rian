@@ -36,7 +36,7 @@
   background-color: #0056b3;
 }
 .slick-arrow {
- z-index:555 ;
+  z-index: 555;
 }
 
 .swiper {
@@ -73,8 +73,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
+}
+.image_height {
+  height: 500px !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -93,5 +96,13 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .news_input {
+    width: 400px !important;
+  }
+  .sign_up_btn {
+    width: 220px !important;
   }
 }
