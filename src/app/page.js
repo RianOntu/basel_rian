@@ -1,3 +1,4 @@
+import AboutTheShop from "@/components/AboutTheShop/AboutTheShop";
 import AllProducts from "@/components/AllProducts/AllProducts";
 import Banner from "@/components/Banner/Banner";
 import Featured from "@/components/Featured/Featured";
@@ -17,6 +18,7 @@ export default function Home() {
       <AllProducts />
       <Newsletter />
       <LatestNews />
+      <AboutTheShop />
       <ScrollToTopButton />
     </>
   );
