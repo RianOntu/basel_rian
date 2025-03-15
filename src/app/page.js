@@ -6,6 +6,7 @@ import Grid from "@/components/Grid/Grid";
 import LatestNews from "@/components/LatestNews/LatestNews";
 import Navbar from "@/components/NavbarComponents/Navbar";
 import Newsletter from "@/components/Newsletter/Newsletter";
+import OurPartners from "@/components/OurPartners/OurPartners";
 import Reviews from "@/components/Reviews/Reviews";
 import ScrollToTopButton from "@/components/ScrollToTop/ScrollToTop";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <LatestNews />
       <AboutTheShop />
       <Reviews />
+      <OurPartners />
       <ScrollToTopButton />
     </>
   );
