@@ -6,7 +6,7 @@ export default function LatestNews() {
     <>
       <div className="w-[80%] mx-auto mt-[50px] mb-[30px]">
         <h1 className="text-xl font-semibold  text-center">LATEST NEWS</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12  gap-y-16 mt-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12  gap-y-16 mt-5 max-w-[1056px] mx-auto">
           <div className="flex flex-col">
             <img
               className="w-full lg:w-[396px] h-[230px]"

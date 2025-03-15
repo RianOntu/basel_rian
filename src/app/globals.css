@@ -82,6 +82,15 @@
 .bg_image {
   background-image: url("/bg_img.avif");
 }
+.slider-container {
+  max-width: 1056px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.slider_img {
+  object-position: center 41%;
+  height: 606px;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

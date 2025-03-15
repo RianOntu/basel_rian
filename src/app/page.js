@@ -2,6 +2,7 @@ import AboutTheShop from "@/components/AboutTheShop/AboutTheShop";
 import AllProducts from "@/components/AllProducts/AllProducts";
 import Banner from "@/components/Banner/Banner";
 import Featured from "@/components/Featured/Featured";
+import Footer from "@/components/Footer/Footer";
 import Grid from "@/components/Grid/Grid";
 import LatestNews from "@/components/LatestNews/LatestNews";
 import Navbar from "@/components/NavbarComponents/Navbar";
@@ -23,6 +24,7 @@ export default function Home() {
       <AboutTheShop />
       <Reviews />
       <OurPartners />
+      <Footer />
       <ScrollToTopButton />
     </>
   );

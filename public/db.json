@@ -4,7 +4,8 @@
       "name": "SkinCeuticals Discoloration Defense Serum",
       "category": "Skin Care",
       "id": "SK001",
-      "image": "https://images.unsplash.com/photo-1629732047356-30c7e14e712b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1629732047356-30c7e14e712b?q=80&w=1470&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1585652757173-57de5e9fab42?q=80&w=1374&auto=format&fit=crop",
       "price_bdt": 15000,
       "description": "A serum designed to reduce the appearance of discoloration and promote an even skin tone."
     },
@@ -12,7 +13,8 @@
       "name": "La Roche-Posay Glycolic B5 Serum",
       "category": "Skin Care",
       "id": "SK002",
-      "image": "https://images.unsplash.com/photo-1585652757173-57de5e9fab42?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1585652757173-57de5e9fab42?q=80&w=1374&auto=format&fit=crop",
+      "alternative_img":"https://plus.unsplash.com/premium_photo-1670514094627-9ed5a1e9c06f?q=80&w=1372&auto=format&fit=crop",
       "price_bdt": 12000,
       "description": "A serum containing glycolic acid and vitamin B5, ideal for exfoliating and hydrating the skin."
     },
@@ -20,7 +22,8 @@
       "name": "PCA Skin Pigment Gel HQ Free",
       "category": "Skin Care",
       "id": "SK003",
-      "image": "https://images.unsplash.com/photo-1620756236308-65c3ef5d25f3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1620756236308-65c3ef5d25f3?q=80&w=1470&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "price_bdt": 13000,
       "description": "A skin treatment gel that targets dark spots and uneven skin tones without hydroquinone."
     },
@@ -28,23 +31,17 @@
       "name": "Olay Regenerist Micro-Sculpting Cream",
       "category": "Skin Care",
       "id": "SK004",
-      "image": "https://plus.unsplash.com/premium_photo-1670514094627-9ed5a1e9c06f?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://plus.unsplash.com/premium_photo-1670514094627-9ed5a1e9c06f?q=80&w=1372&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1616742503550-0d65c6be5e94?q=80&w=1372&auto=format&fit=crop",
       "price_bdt": 3500,
       "description": "A cream that helps to improve the skin’s elasticity and reduces the appearance of fine lines and wrinkles."
-    },
-    {
-      "name": "Neutrogena Hydro Boost Water Gel",
-      "category": "Skin Care",
-      "id": "SK005",
-      "image": "https://images.unsplash.com/photo-1629261323437-d3369319847a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price_bdt": 2500,
-      "description": "A water-based gel that provides intense hydration and helps to lock moisture into the skin."
     },
     {
       "name": "Apple iPhone 14 Pro",
       "category": "Electronics",
       "id": "EL001",
-      "image": "https://images.unsplash.com/photo-1697898706719-bce6e007c817?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1697898706719-bce6e007c817?q=80&w=1374&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1374&auto=format&fit=crop",
       "price_bdt": 150000,
       "description": "The iPhone 14 Pro offers powerful performance, enhanced camera capabilities, and a sleek design."
     },
@@ -52,39 +49,17 @@
       "name": "Samsung Galaxy S22 Ultra",
       "category": "Electronics",
       "id": "EL002",
-      "image": "https://images.unsplash.com/photo-1707438095940-1eee18e85400?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1707438095940-1eee18e85400?q=80&w=1631&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?q=80&w=1631&auto=format&fit=crop",
       "price_bdt": 135000,
       "description": "Samsung's flagship phone with a dynamic AMOLED display and an advanced quad-camera setup."
-    },
-    {
-      "name": "Sony WH-1000XM5 Headphones",
-      "category": "Electronics",
-      "id": "EL003",
-      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price_bdt": 25000,
-      "description": "Noise-canceling headphones with superb sound quality and long battery life."
-    },
-    {
-      "name": "Dell XPS 13 Laptop",
-      "category": "Electronics",
-      "id": "EL004",
-      "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price_bdt": 120000,
-      "description": "A lightweight and powerful laptop ideal for work and productivity with a premium display."
-    },
-    {
-      "name": "Apple Watch Series 8",
-      "category": "Electronics",
-      "id": "EL005",
-      "image": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price_bdt": 45000,
-      "description": "A stylish and functional smartwatch with fitness tracking, notifications, and heart health features."
     },
     {
       "name": "Nike Air Zoom Pegasus 39",
       "category": "Footwear",
       "id": "FW001",
-      "image": "https://images.unsplash.com/photo-1739138053555-13321c306033?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1739138053555-13321c306033?q=80&w=1498&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1526228126341-50342988db1c?q=80&w=1498&auto=format&fit=crop",
       "price_bdt": 8500,
       "description": "Comfortable running shoes designed for both performance and style with a responsive cushioning system."
     },
@@ -92,25 +67,10 @@
       "name": "Adidas Ultraboost 22",
       "category": "Footwear",
       "id": "FW002",
-      "image": "https://images.unsplash.com/photo-1620794341491-76be6eeb6946?q=80&w=1388&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price_bdt": 10000,
-      "description": "High-performance sneakers with exceptional cushioning for all-day comfort and support."
-    },
-    {
-      "name": "New Balance 990v5",
-      "category": "Footwear",
-      "id": "FW003",
-      "image": "https://images.unsplash.com/photo-1529810313688-44ea1c2d81d3?q=80&w=1541&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.unsplash.com/photo-1526228126341-50342988db1c?q=80&w=1498&auto=format&fit=crop",
+      "alternative_img": "https://images.unsplash.com/photo-1603787081207-b772f28f0703?q=80&w=1498&auto=format&fit=crop",
       "price_bdt": 9500,
-      "description": "Durable and supportive shoes with a classic design that provides long-lasting comfort."
-    },
-    {
-      "name": "ASICS Gel-Kayano 28",
-      "category": "Footwear",
-      "id": "FW004",
-      "image": "https://images.unsplash.com/photo-1561909848-977d0617f275?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "price_bdt": 11000,
-      "description": "Running shoes designed for stability and comfort, perfect for long-distance runs."
+      "description": "A premium running shoe that delivers high-energy return and superior comfort."
     }
   ]
 }

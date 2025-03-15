@@ -21,7 +21,7 @@ const Banner = () => {
       >
         <SwiperSlide>
           <img
-            className="w-full h-[500px] object-cover"
+            className="w-full h-[500px] object-cover slider_img"
             src="/first_slide.jpg"
             alt="Slide 1"
           />
@@ -44,7 +44,7 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full h-[500px] object-cover"
+            className="w-full h-[500px] object-cover slider_img"
             src="/second_slide.jpg"
             alt="Slide 2"
           />

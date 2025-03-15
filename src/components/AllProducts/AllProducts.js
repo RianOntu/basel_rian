@@ -2,7 +2,7 @@ import React from "react";
 import SliderSection from "../SliderSection/SliderSection";
 
 export default async function AllProducts() {
-  const response = await fetch(`http://localhost:5000/products`);
+  const response = await fetch(`http://localhost:3000/products`);
   const products = await response.json();
   return (
     <>
