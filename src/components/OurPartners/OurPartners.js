@@ -30,9 +30,9 @@ function OurPartners() {
         },
       },
       {
-        breakpoint: 480, // For smaller mobile screens
+        breakpoint: 375, // For smaller mobile screens
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },

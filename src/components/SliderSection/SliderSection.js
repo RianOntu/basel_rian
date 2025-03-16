@@ -27,7 +27,7 @@ export default function SliderSection({ clothes = [] }) {
           breakpoints={{
             1024: { slidesPerView: 3, grid: { rows: 2 } },
             768: { slidesPerView: 2, grid: { rows: 2 } },
-            480: { slidesPerView: 1, grid: { rows: 1 } },
+            375: { slidesPerView: 1, grid: { rows: 2 } },
           }}
           className="mySwiper"
         >

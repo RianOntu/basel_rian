@@ -5,8 +5,8 @@ export default function AboutTheShop() {
   return (
     <>
       <div className="bg_image p-5">
-        <div className="w-[80%] mx-auto mt-[50px] p-3 h-[400px] bg-white border-gray-500 border-2 mb-[50px]">
-          <div className="flex flex-col lg:flex-row justify-between items-center">
+        <div className="w-[80%] mx-auto mt-[50px] p-3 h-auto bg-white border-gray-500 border-2 mb-[50px]">
+          <div className="flex flex-col xl:flex-row justify-between items-center h-auto">
             <div className="flex flex-col  justify-between items-center p-4 pt-[70px]">
               <img
                 src="/logo.svg"

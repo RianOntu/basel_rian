@@ -21,17 +21,20 @@ const Banner = () => {
       >
         <SwiperSlide>
           <img
-            className="w-full h-[500px] object-cover slider_img"
+            className="w-full h-auto lg:h-[500px] object-cover slider_img "
             src="/first_slide.jpg"
             alt="Slide 1"
           />
+
+          {/* Overlay */}
+          <div className="absolute block  inset-0 bg-black bg-opacity-50"></div>
           {/* Centered Text */}
           <div className="w-[80%] mx-auto absolute inset-0 flex items-center justify-start">
-            <div>
-              <h1 className="text-black text-md md:text-5xl font-bold">
+            <div className="mx-auto">
+              <h1 className="text-white  text-md md:text-5xl font-bold text-center">
                 ON TREND JERSEY
               </h1>
-              <h1 className="text-black text-sm md:text-3xl font-semibold mt-5 w-[600px]">
+              <h1 className="text-white  text-sm md:text-3xl font-semibold text-center mt-5 w-[300px] md:w-[500px] lg:w-[600px]">
                 Everything 40% Discount On Handbags, Clothes, and All Girl Items
               </h1>
               <div className="mt-6">
@@ -44,17 +47,20 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full h-[500px] object-cover slider_img"
+            className="w-full h-auto lg:h-[500px] object-cover slider_img "
             src="/second_slide.jpg"
-            alt="Slide 2"
+            alt="Slide 1"
           />
+
+          {/* Overlay */}
+          <div className="absolute block  inset-0 bg-black bg-opacity-50"></div>
           {/* Centered Text */}
           <div className="w-[80%] mx-auto absolute inset-0 flex items-center justify-start">
-            <div>
-              <h1 className="text-black text-md md:text-5xl font-bold">
+            <div className="mx-auto">
+              <h1 className="text-white  text-md md:text-5xl font-bold text-center">
                 ON TREND JERSEY
               </h1>
-              <h1 className="text-black text-sm md:text-3xl font-semibold mt-5 w-[600px]">
+              <h1 className="text-white  text-sm md:text-3xl font-semibold text-center mt-5 w-[300px] md:w-[500px] lg:w-[600px]">
                 Everything 40% Discount On Handbags, Clothes, and All Girl Items
               </h1>
               <div className="mt-6">

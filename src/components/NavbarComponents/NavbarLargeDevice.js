@@ -7,12 +7,12 @@ export default function NavbarLargeDevice() {
   return (
     <>
       <div className="primary_bg_color">
-        <div className="w-[80%] mx-auto justify-center hidden lg:flex lg:justify-between items-center p-2">
+        <div className="w-[80%] mx-auto justify-center flex lg:justify-between items-center p-2">
           <p className="text-sm text-white">
             OUR PHONE NUMBER :{" "}
             <span className="underline">+77 (756) 334 876</span>
           </p>
-          <ul className="text-white flex items-center">
+          <ul className="text-white  items-center hidden lg:flex">  
             <li className="flex mr-4 items-center border-r-[0.5px] w-[126px]">
               <FaUser className="mr-1" />
               <p className="text-sm text-white">MY ACCOUNT</p>
