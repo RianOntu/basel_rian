@@ -33,7 +33,7 @@ export default function NavbarLowerPortion() {
             </li>
           </ul>
           <img
-            src="https://new-basel2.myshopify.com/cdn/shop/files/logo-basel.svg?v=11944076954395008056"
+            src="/logo.svg"
             alt="logo"
             className="w-[200px] h-[50px]"
           />

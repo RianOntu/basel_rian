@@ -40,47 +40,47 @@ function OurPartners() {
   };
 
   return (
-    <div className="p-6 bg-[#F4F4F4] mt-[30px]">
+    <div className="p-6  bg-gray-400 mt-[30px]">
       <div className="w-[80%] mx-auto">
         <Slider {...settings}>
           <div className="flex justify-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/logo-2_250x.png"
+              src="/logo-3.png"
               className="w-[150px] h-auto"
               alt="Partner Logo"
             />
           </div>
           <div className="flex justify-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/logo-6_250x.png"
+              src="/partner_img1.png"
               className="w-[150px] h-auto"
               alt="Partner Logo"
             />
           </div>
           <div className="flex justify-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/logo-3_250x.png"
+              src="/partner_img2.png"
               className="w-[150px] h-auto"
               alt="Partner Logo"
             />
           </div>
           <div className="flex justify-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/logo-4_250x.png"
+              src="/partner_img3.png"
               className="w-[150px] h-auto"
               alt="Partner Logo"
             />
           </div>
           <div className="flex justify-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/logo-5_250x.png"
+              src="/partner_img4.png"
               className="w-[150px] h-auto"
               alt="Partner Logo"
             />
           </div>
           <div className="flex justify-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/logo-1_250x.png"
+              src="/partner_img5.png"
               className="w-[150px] h-auto"
               alt="Partner Logo"
             />

@@ -15,12 +15,13 @@ function Reviews() {
   };
   return (
     <>
-      <div className="w-[80%] mx-auto lg:w-[400px]">
+      <div className="w-[80%] mx-auto lg:w-[400px] ">
         <h1 className="text-center text-xl mt-8">WHAT THEY SAY ABOUT US</h1>
+
         <Slider {...settings}>
           <div className="flex flex-col items-center justify-center text-center mx-auto">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/testimonial1-100x100_100x100.progressive.jpg"
+              src="/review.jpg"
               className="w-[80px] h-[80px] rounded-full mx-auto mt-5"
               alt=""
             />
@@ -35,7 +36,7 @@ function Reviews() {
           </div>
           <div className="flex flex-col justify-center text-center">
             <img
-              src="https://new-basel2.myshopify.com/cdn/shop/files/testimonial2-1-100x100_100x100.progressive.jpg"
+              src="/review1.jpg"
               className="flex justify-center w-[80px] h-[80px] rounded-full mx-auto mt-5"
               alt=""
             />
