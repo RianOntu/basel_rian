@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/NavbarComponents/Navbar";
+import SinglePageImg from "@/components/SinglePageImg/SinglePageImg";
 import React from "react";
 
 async function Page({ params }) {
@@ -16,11 +17,7 @@ async function Page({ params }) {
         <div className="max-w-6xl mx-auto bg-white rounded-lg  overflow-hidden flex flex-col md:flex-row p-8">
           {/* Product Image Section */}
           <div className="md:w-1/2 flex justify-center items-center overflow-hidden">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-auto rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300"
-            />
+            <SinglePageImg product={product} />
           </div>
 
           {/* Product Information Section */}
@@ -68,7 +65,7 @@ async function Page({ params }) {
             </div>
 
             {/* Description */}
-            <div className="text-gray-600 mb-8">
+            <div className="text-gray-600 text-sm mb-8">
               <p>{product.description}</p>
             </div>
 

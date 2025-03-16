@@ -10,24 +10,35 @@ const ProductCard = ({ product }) => {
   return (
     <Link href={`/shop/${product.id}`}>
       <div
-        className="bg-[#FFFFFF] relative overflow-hidden h-[388px] shadow-md w-[300px] md:w-[230px] xl:w-[270px] rounded-lg mx-auto hover:shadow-lg transition duration-500 product_div margin_bottom"
+        className="bg-[#FFFFFF] relative overflow-hidden h-[388px] w-[300px] md:w-[230px] xl:w-[270px] rounded-lg mx-auto hover:shadow-lg transition duration-500 product_div margin_bottom"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {/* Image Wrapper */}
         <div className="relative h-60 w-full overflow-hidden">
-          {/* Only render one image based on hover state */}
+          {/* Default Image */}
           <img
-            src={isHovered ? product?.alternative_img : product?.image} // Change image on hover
+            src={product?.image}
             alt={product?.name}
-            className={`absolute top-0 left-0 w-full h-[306.66px] object-cover rounded-md transition-opacity duration-700`} // Apply fade-in effect
+            className={`absolute top-0 left-0 w-full h-full object-cover rounded-md transition-opacity duration-700 ${
+              isHovered ? "opacity-0" : "opacity-100"
+            }`}
           />
-          
+
+          {/* Alternative Image (Appears on Hover) */}
+          <img
+            src={product?.alternative_img}
+            alt={product?.name}
+            className={`absolute top-0 left-0 w-full h-full object-cover rounded-md transition-opacity duration-700 ${
+              isHovered ? "opacity-100" : "opacity-0"
+            }`}
+          />
+
           {/* Buttons Coming from Top */}
           <div
-            className={`flex flex-col absolute top-[12px] right-1 transition-opacity duration-700 ${
-              isHovered ? "opacity-100 delay-300" : "opacity-0"
-            }`} // Delay for icons
+            className={`flex flex-col absolute top-[12px] right-1 transition-opacity duration-500 ${
+              isHovered ? "opacity-100 delay-100" : "opacity-0"
+            }`}
           >
             <button className="text-white text-sm p-2">
               <FaHeart className="text-white" />
@@ -41,28 +52,29 @@ const ProductCard = ({ product }) => {
           </div>
         </div>
 
-        {/* Product Info - Expands Upward on Hover */}
-        <div className="absolute bottom-0 w-full bg-white transition-all duration-500 ease-in-out">
-          <h2 className="text-lg font-semibold mt-2 p-1 text-center">
-            {product?.name}
-          </h2>
-          <p className="text-gray-600 text-sm p-1 text-center">
-            {product?.description?.slice(0, 100)}...See more
-          </p>
-          <p className="text-gray-600 text-sm p-1 text-center">
+        {/* Product Info */}
+        <div className="absolute bottom-0 w-full bg-white transition-all duration-500 ease-in-out p-3">
+          <h2 className="text-lg font-semibold text-center">{product?.name}</h2>
+
+          {/* Price moves up smoothly */}
+          <p
+            className={`text-gray-600 mt-2 text-sm text-center transition-all duration-500 ${
+              isHovered ? "translate-y-[-10px]" : "translate-y-0"
+            }`}
+          >
             BDT {product?.price_bdt}
           </p>
 
-          {isHovered && (
-            <div
-              className="flex justify-center p-3 transition-opacity duration-700"
-              style={{ opacity: isHovered ? 1 : 0, transitionDelay: '600ms' }} // Apply delay to "Add to Cart" button
-            >
-              <button className="text-white text-sm bg-[#976797] transition-all duration-500 p-2 px-3">
-                ADD TO CART
-              </button>
-            </div>
-          )}
+          {/* Animated Add to Cart Button */}
+          <div
+            className={`flex justify-center transform transition-all duration-500 ${
+              isHovered ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          >
+            <button className="text-white text-sm bg-[#976797] transition-all duration-500 p-2 px-3">
+              ADD TO CART
+            </button>
+          </div>
         </div>
       </div>
     </Link>
