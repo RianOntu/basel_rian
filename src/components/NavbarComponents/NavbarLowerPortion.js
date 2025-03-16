@@ -32,11 +32,11 @@ export default function NavbarLowerPortion() {
               <FaChevronDown />
             </li>
           </ul>
-          <img
-            src="/logo.svg"
-            alt="logo"
-            className="w-[200px] h-[50px]"
-          />
+          <Link href="/">
+            {" "}
+            <img src="/logo.svg" alt="logo" className="w-[200px] h-[50px]" />
+          </Link>
+
           <div className="flex items-center mr-4">
             <Link className="italic" href="/login">
               Login

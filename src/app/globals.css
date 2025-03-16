@@ -91,6 +91,88 @@
   object-position: center 41%;
   height: 606px;
 }
+/* styles/custom-tabs.css */
+/* Styling the tab list */
+/* Styling the tab list */
+.react-tabs__tab-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center; /* Center tabs horizontally */
+  border: none !important;
+}
+
+/* Styling the individual tabs */
+.react-tabs__tab {
+  padding: 12px 20px;
+  margin-right: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0; /* Default tab background */
+  transition: background-color 0.3s, color 0.3s;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+
+/* Active tab style (top border of 2px when selected) */
+.react-tabs__tab--selected {
+  background-color: #d1d1d1 !important; /* Active tab background color */
+  color: white; /* Active tab text color */
+  /* Add a bottom border of 2px */
+}
+
+/* Hover effect for tabs */
+.react-tabs__tab:hover {
+  background-color: #d1d1d1;
+}
+
+/* Disabled tab style */
+.react-tabs__tab--disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Styling the tab panel */
+.react-tabs__tab-panel {
+  padding: 20px;
+  background-color: #fafafa;
+  border: none; /* Remove any unwanted borders */
+}
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App h2 {
+  color: #333;
+}
+
+.App label {
+  display: block;
+  margin-top: 10px;
+}
+
+.App input,
+.App textarea,
+.App select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.App button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.App button:hover {
+  background-color: #0056b3;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

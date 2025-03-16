@@ -9,7 +9,7 @@ export default function AboutTheShop() {
           <div className="flex flex-col lg:flex-row justify-between items-center">
             <div className="flex flex-col  justify-between items-center p-4 pt-[70px]">
               <img
-                src="https://new-basel2.myshopify.com/cdn/shop/files/logo-basel.svg?v=11944076954395008056"
+                src="/logo.svg"
                 className="w-[200px] h-[50px] flex justify-center"
                 alt=""
               />

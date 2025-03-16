@@ -1,7 +1,19 @@
 import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/NavbarComponents/Navbar";
+import RelatedProducts from "@/components/RelatedProducts/RelatedProducts";
 import SinglePageImg from "@/components/SinglePageImg/SinglePageImg";
+import TabNavigation from "@/components/SinglePageTabs/SinglePageTabs";
 import React from "react";
+import {
+  FaFacebook,
+  FaHeart,
+  FaLinkedinIn,
+  FaPinterest,
+  FaTwitter,
+} from "react-icons/fa";
+import { FaBoltLightning } from "react-icons/fa6";
+import { HiOutlineArrowPathRoundedSquare } from "react-icons/hi2";
+import { IoMdMail } from "react-icons/io";
 
 async function Page({ params }) {
   const { id } = params;
@@ -16,7 +28,7 @@ async function Page({ params }) {
       <div className="min-h-screen py-10">
         <div className="max-w-6xl mx-auto bg-white rounded-lg  overflow-hidden flex flex-col md:flex-row p-8">
           {/* Product Image Section */}
-          <div className="md:w-1/2 flex justify-center items-center overflow-hidden">
+          <div className="md:w-1/2 flex justify-center items-start overflow-hidden">
             <SinglePageImg product={product} />
           </div>
 
@@ -45,8 +57,9 @@ async function Page({ params }) {
             </div>
 
             {/* Stock Alert */}
-            <div className="text-red-600 font-bold mb-4">
-              HURRY! ONLY 8 LEFT IN STOCK.
+            <div className="text-red-600 font-bold mb-4 flex items-center">
+              <FaBoltLightning className="mr-2 animate-fadePulse" />
+              <p> HURRY! ONLY 8 LEFT IN STOCK.</p>
             </div>
 
             {/* Countdown Timer */}
@@ -77,9 +90,42 @@ async function Page({ params }) {
               <button className="bg-black text-white px-8 py-3   transition-colors duration-300 w-full mt-3">
                 Buy Now
               </button>
+              <hr className="mt-5 mb-5 w-full" />
+              <div className="flex gap-2 items-center">
+                <FaHeart className="text-xl text-red-500" />
+                <p className="text-md font-thin">Add to wishlist</p>
+              </div>
+              <div className="flex gap-2 mt-3 items-center">
+                <HiOutlineArrowPathRoundedSquare className="text-xl" />
+                <p className="text-md font-thin">Compare</p>
+              </div>
+              <div className="flex gap-2 mt-3 items-center">
+                <p className="text-md font-semibold">SKU :</p>
+                <p className="text-md font-thin">N/A</p>
+              </div>
+              <div className="flex gap-2 mt-3 items-center">
+                <p className="text-md font-semibold">Category :</p>
+                <p className="text-md font-thin">{product?.category}</p>
+              </div>
+              <div className="flex gap-2 mt-3 items-center">
+                <p className="text-md font-semibold">Tags :</p>
+                <p className="text-md font-thin">New,White</p>
+              </div>
+              <div className="flex gap-2 mt-3 items-center">
+                <p className="text-md font-semibold">Share :</p>
+                <div className="flex gap-2 items-center">
+                  <FaFacebook className="text-xl text-[#333333]" />
+                  <FaTwitter className="text-xl text-[#333333]" />
+                  <IoMdMail className="text-xl text-[#333333]" />
+                  <FaPinterest className="text-xl text-[#333333]" />
+                  <FaLinkedinIn className="text-xl text-[#333333]" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
+        <TabNavigation />
+        <RelatedProducts />
       </div>
       <Footer />
     </>
