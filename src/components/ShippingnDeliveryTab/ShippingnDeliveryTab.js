@@ -3,7 +3,7 @@ import React from "react";
 function ShippingnDeliveryTab() {
   return (
     <>
-      <div className="flex items-start gap-4">
+      <div className="flex flex-col lg:flex-row items-start gap-4">
         <img src="/shipping.jpg" alt="" />
         <div className="flex flex-col">
           <p className="text-sm">

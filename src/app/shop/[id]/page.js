@@ -64,7 +64,7 @@ async function Page({ params }) {
 
             {/* Countdown Timer */}
             <div className="bg-gray-100 p-4 rounded-lg mb-6">
-              <div className="flex space-x-4 text-gray-700 font-medium">
+              <div className="flex space-x-4 text-gray-700 font-medium text-xs lg:text-md">
                 <span>0 DAYS</span>
                 <span>07 HOURS</span>
                 <span>16 MINUTES</span>
